@@ -1,0 +1,47 @@
+body{
+  background-color: pink;
+}
+
+.titulo{
+  text-align:center;
+  padding-top: 20px;
+}
+
+.grandeImagem {
+  background-color: #cccccc;
+  background-image: url("/imagens/abraco.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  top: 20px;
+  height: 550px;
+  width: 100%;
+  border: 3px solid black;
+}
+.grandeTexto {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.tresRetangulos{
+  display: flex;
+  justify-content: space-between;
+}
+.imagensMenores {
+  background-color: grey;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100px;
+  width: 33%;
+  border: 3px solid black;
+}
+.textosMenores {
+  text-align: center;
+  color: black;
+}

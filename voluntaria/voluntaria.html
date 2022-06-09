@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>voluntaria</title>
+  <link href="voluntaria.css" rel="stylesheet" type="text/css" />
+</head>
+  
+<body>
+  <div class="tudo">
+    <h2 class="titulo">Cadastre-se como Voluntária</h2>
+    <form action="/login/login.html" name="voluntariaLista" id="voluntariaLista">
+      <div class="opcoes">
+        <div>
+          <label for="name">Nome completo:</label>
+          <br>
+          <input type="text" name="nome" id="nome" required>
+        </div>
+        <br>
+        <div>
+          <label for="endereco">Endereço: </label>
+          <br>
+          <input type="text" name="endereco" id="endereco" required>
+        </div>
+        <br>
+        <div>
+          <label for="telefone">Telefone:</label>
+          <br>
+          <input type="number" name="telefone" id="telefone" required>
+        </div>
+        <br>
+        <div>
+          <label for="email">Email:</label>
+          <br>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <br>
+        <div>
+          <label for="vagas">Número de pessoas que podem ser abrigadas:</label>
+          <br>
+          <input type="number" name="vagas" id="vagas" value="0" required>
+        </div>
+        <br>
+        <div>
+          <label for="senha">Definir senha:</label>
+          <br>
+          <input type="password" name="senha" id="senha" required>
+        </div>
+        <br>
+        <button onclick="login()">Criar</button>
+      </div>
+    </form>
+    <div>
+      <button onclick="voltar()">Voltar</button>
+    </div>
+  </div>
+<script src="voluntaria.js"></script>
+</body>
+</html>

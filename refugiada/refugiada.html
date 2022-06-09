@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>refugiada</title>
+  <link href="refugiada.css" rel="stylesheet" type="text/css" />
+</head>
+  
+<body>
+  <div class="tudo">
+    <h2 class="titulo">Cadastre-se como Refugiada</h2>
+    <form action="/login/login.html" name="refugiadaLista" id="refugiadaLista">
+      <div class="opcoes">
+        <div>
+          <label for="name">Nome completo:</label>
+          <br>
+          <input type="text" name="nome" id="nome" required>
+        </div>
+        <br>
+        <div>
+          <label for="pais">País de origem: </label>
+          <br>
+          <input type="text" name="pais" id="pais" required>
+        </div>
+        <br>
+        <div>
+          <label for="telefone">Telefone:</label>
+          <br>
+          <input type="number" name="telefone" id="telefone" required>
+        </div>
+        <br>
+        <div>
+          <label for="email">Email:</label>
+          <br>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <br>
+        <div>
+          <label for="acompanhantes">Número de acompanhantes:</label>
+          <br>
+          <input type="number" name="acompanhantes" id="acompanhantes" value="0" required>
+        </div>
+        <br>
+        <div>
+          <label for="senha">Definir senha:</label>
+          <br>
+          <input type="password" name="senha" id="senha" required>
+        </div>
+        <br>
+        <button onclick="login()">Criar</button>
+      </div>
+    </form>
+    <div>
+      <button onclick="voltar()">Voltar</button>
+    </div>
+  </div>
+<script src="refugiada.js"></script>
+</body>
+</html>
